@@ -606,7 +606,12 @@ span:hover {
     font-size: 50%;
   }
 
- 
+ .about-img video {
+  width: 60vh;
+  background: transparent;
+  transition: transform 0.3s ease;
+  border-radius: 10px 10px 10px;
+}
 }
 
 @media (max-width: 365px) {
@@ -617,7 +622,12 @@ span:hover {
   .about-img img {
     width: 90vw;
   }
-
+.about-img video {
+  width: 50vh;
+  background: transparent;
+  transition: transform 0.3s ease;
+  border-radius: 10px 10px 10px;
+}
 
 
 
