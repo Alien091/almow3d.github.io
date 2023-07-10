@@ -62,13 +62,14 @@ section {
   1px 1px #0ef,
   2px 2px #0ef,
   3px 3px #0ef,
-  4px 4px #0ef,
-  5px 5px #0ef,
-  6px 6px #0ef;
+  3px 3px #0ef,
+  3px 3px #0ef,
+  3px 3px #0ef;
   -webkit-transform: translateX(-3px);
   transform: translateX(-3px);
   transition: .5s ease;
-  border-radius:10%;
+  border-radius:1%;
+  cursor: pointer;
 }
 
 .navbar a {
