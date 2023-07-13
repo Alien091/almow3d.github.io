@@ -275,6 +275,23 @@ z-index: 1;
   opacity: 1;
 }
 
+
+.about i {
+  position: relative;
+  display: inline-flex;
+  color: var(--main-color);
+  margin: 3rem 12rem 10rem 0;
+  transition: 0.5s ease;
+  font-size: 6em;
+  text-shadow: 0 0 50px var(--main-color),
+               0 0 100px var(--main-color),
+               0 0 150px var(--main-color),
+               0 0 200px var(--main-color),
+               0 0 250px var(--main-color);
+               animation: animate 5s linear infinite;
+             padding-left: 23rem;
+}
+
 .heading {
   text-align: center;
   font-size: 4rem;
@@ -553,7 +570,9 @@ direction: rtl;
  width: 220px;
 }
 
-
+.about i {
+  display: none;
+}
 
 .repair {
   padding-bottom: 7rem;
