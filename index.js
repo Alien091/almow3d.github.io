@@ -49,7 +49,7 @@ header.classList.toggle('sticky', window.scrollY > 100);
 
   ScrollReveal().reveal('.home-contect, .heading', { origin: 'top' });
   ScrollReveal().reveal('.home-img, .services-container, .repair-box, .contact form', { origin: 'bottom' });
-  ScrollReveal().reveal('.home-contect h1, .about-img', { origin: 'left' });
+  ScrollReveal().reveal('.home-contect h1, .about div, .swiper mySwiper, .container ', { origin: 'left' });
   ScrollReveal().reveal('.home-contect p, .about-content', { origin: 'right' });
 
     /* ========= multi text show =============*/
