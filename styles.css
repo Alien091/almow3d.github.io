@@ -291,6 +291,17 @@ z-index: 1;
                animation: animate 5s linear infinite;
              padding-left: 23rem;
 }
+@keyframes animate {
+  0%{
+    filter: hue-rotate(0deg);
+  }
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+
+
+
 
 .heading {
   text-align: center;
