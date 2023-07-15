@@ -260,7 +260,7 @@ span {
 transform: skewX(-15deg);
 z-index: 1;
 }
-.screen img {
+.screen video {
   position: absolute;
   top: 0;
   left: 0;
@@ -271,7 +271,7 @@ z-index: 1;
   transition: 0.5s;
 }
 
-.screen:hover img {
+.screen:hover video {
   opacity: 1;
 }
 
