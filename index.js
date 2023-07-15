@@ -81,3 +81,23 @@ header.classList.toggle('sticky', window.scrollY > 100);
       prevEl: ".swiper-button-prev",
     },
   });
+
+ /* ========= hove play video =============*/
+
+  const videoElement = document.getElementById('video-element');
+
+  // Pause the video and reset to the beginning
+  function resetVideo() {
+    videoElement.pause();
+    videoElement.currentTime = 0;
+  }
+
+  // Play the video when the mouse hovers over it
+  videoElement.addEventListener('mouseover', function() {
+    videoElement.play();
+  });
+
+  // Pause and reset the video when the mouse leaves
+  videoElement.addEventListener('mouseout', function() {
+    resetVideo();
+  });
